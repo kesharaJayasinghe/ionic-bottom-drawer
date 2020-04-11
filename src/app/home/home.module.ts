@@ -6,11 +6,18 @@ import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
 
+import { IonicPullupModule } from 'ionic-pullup';
+import { AgmCoreModule } from '@agm/core';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    IonicPullupModule,
+    AgmCoreModule.forRoot({
+      apiKey: '' //Add Google API key here
+    }),
     RouterModule.forChild([
       {
         path: '',

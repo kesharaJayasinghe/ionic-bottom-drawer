@@ -1,6 +1,39 @@
+agm-map {
+  height: 100%;
+}
+
+#fab-btn {
+  margin-top: -27px;
+}
+
+.md #chip1 {
+  background-color: #006161;
+  height: 5px;
+  width: 100px;
+  margin-top: -6px;
+}
+
+.ios #chip1 {
+  background-color: #006161;
+  height: 5px;
+  width: 100px;
+  margin-top: -25px;
+}
+
+.ios #chip-title {
+  margin-top: 13px;
+}
+
+ion-toolbar {
+  --min-height: 50px;
+}
+
+#horizontal-icon {
+  color: black;
+}
+
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -16,9 +49,7 @@
 #container p {
   font-size: 16px;
   line-height: 22px;
-
   color: #8c8c8c;
-
   margin: 0;
 }
 
