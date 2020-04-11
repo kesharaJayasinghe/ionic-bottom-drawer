@@ -1,0 +1,7 @@
+{
+  "name": "bottom-drawer-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
